@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Javascript + DOM</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<!-- <link rel="stylesheet" href="fontawesome-free-5.13.0-web/css/all.css"> -->
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+		/>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="container">
+				<h1>Shopping List</h1>
+				<p id="first">Get it done today</p>
+			</header>
+
+			<section class="sectionlist">
+				<div class="userinputdiv">
+					<input
+						id="userinput"
+						type="text"
+						placeholder="enter items"
+					/>
+					<button id="enter">Enter</button>
+					<button id="ClearAll">Clear All</button>
+				</div>
+
+				<div class="shoppinglist">
+					<ul class="listul">
+						<li class="bold red" random="23">
+							<span class="span">Notebook </span
+							><i
+								class="far fa-trash-alt delete"
+								aria-hidden="true"
+							></i>
+						</li>
+						<li>
+							<span class="span">Jello </span>
+							<i
+								class="far fa-trash-alt delete"
+								aria-hidden="true"
+							></i>
+						</li>
+						<li>
+							<span class="span">Spinach </span
+							><i
+								class="far fa-trash-alt delete"
+								aria-hidden="true"
+							></i>
+						</li>
+						<li>
+							<span class="span">Rice </span
+							><i
+								class="far fa-trash-alt delete"
+								aria-hidden="true"
+							></i>
+						</li>
+						<li>
+							<span class="span">Birthday Cake </span
+							><i
+								class="far fa-trash-alt delete"
+								aria-hidden="true"
+							></i>
+						</li>
+						<li>
+							<span class="span">Candles </span
+							><i
+								class="far fa-trash-alt delete"
+								aria-hidden="true"
+							></i>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</div>
+
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
